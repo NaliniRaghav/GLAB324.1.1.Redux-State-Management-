@@ -1,12 +1,14 @@
 import React from 'react';
-import { PostsList } from './features/posts/PostsList';
-import { Navbar } from './app/Navbar';
+import { Navbar } from './app/Navbar';   
+import { AddPostForm } from './features/posts/AddPostForm';   
+import { PostsList } from './features/posts/PostsList';  
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <PostsList />
+      <Navbar />   
+      <AddPostForm />   
+      <PostsList />   
     </div>
   );
 }
